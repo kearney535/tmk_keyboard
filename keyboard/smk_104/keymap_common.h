@@ -34,9 +34,8 @@ extern const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS];
 extern const uint16_t fn_actions[];
 
 
-/* GH60 keymap definition macro
- * K2C, K31 and  K3C are extra keys for ISO
- */
+// Keymap definition macro for SMK-104 8-row, 13-column hardware
+
 #define KEYMAP( \
     K000, K001, K002, K003, K004, K005, K006, K007, K008, K009, K00A, K00B, K00C, K00D, K00E, K00F, \
     K100, K101, K102, K103, K104, K105, K106, K107, K108, K109, K10A, K10B, K10C, K10D, K10E, K10F, K110, K111, K112, K113, K114, \
